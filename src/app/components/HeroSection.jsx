@@ -20,7 +20,7 @@ const HeroSection = () => {
 						</span>
 						<br></br>
 						<TypeAnimation
-							sequence={["Abdullah", 1000, "Web Developer", 1000]}
+							sequence={["Hira", 1000, "App Developer", 1000]}
 							wrapper='span'
 							speed={50}
 							repeat={Infinity}
@@ -54,7 +54,7 @@ const HeroSection = () => {
 					className='col-span-4 place-self-center mt-4 lg:mt-0'>
 					<div className='rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative'>
 						<Image
-							src='/images/my-image.jpg'
+							src='/images/my-image.jpeg'
 							alt='hero image'
 							className='absolute w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] rounded-full'
 							width={1000}

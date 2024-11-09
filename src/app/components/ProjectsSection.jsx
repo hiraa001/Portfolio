@@ -5,55 +5,60 @@ import { motion, useInView } from "framer-motion";
 import One from "../../assets/1.jpg";
 import Two from "../../assets/2.jpg";
 import Three from "../../assets/3.jpg";
+import Four from "../../assets/4.jpg";
+import Five from "../../assets/5.jpg";
 
 const projectsData = [
 	{
 		id: 1,
-		title: "Next Js Portfolio Website",
+		title: "MagicAi Object Remover",
 		description:
-			"I built this portfolio using Next.js and Tailwind CSS. It features a responsive design that adapts seamlessly to various devices and utilizes server-side rendering for quick loading. The site has a clean, modern interface that effectively highlights my skills and projects.",
+			"Magic AI Object Remover is an advanced object removal app that leverages EfficientDet for precise object detection and a REST API for seamless object removal. It also includes manual removal tools like brush, lasso, and rectangle for greater control. Integrated with Firebase, it offers real-time analytics, crash reporting via Crashlytics, and Remote Config to enhance user experience and app stability.",
 		image: One.src,
-		tag: ["All", "Web"],
+		tag: ["All", "Mobile"],
 		gitUrl: "/",
-		previewUrl: "/",
+		previewUrl:
+			"https://play.google.com/store/apps/details?id=com.photo.object.remover.magic.ai.remove.objects&hl=en_US&gl=US",
 	},
 	{
 		id: 2,
-		title: "FBA",
+		title: "Backify",
 		description:
-			"FBA is a project showcasing an entrepreneur's journey in FBA. Strapi CMS is used for content and Stripe for payments. I have hands-on experience on implementing elegant UI showcasing proficiency in frontend development.",
+			"Backify is an AI-powered background remover app that utilizes ML Kit's segmenter to effortlessly remove backgrounds from images with precision. Integrated with Firebase for enhanced performance, it includes features like analytics, crash reporting via Crashlytics, and Remote Config for real-time updates, ensuring a smooth and reliable user experience.",
 		image: Two.src,
-		tag: ["All", "Web"],
+		tag: ["All", "Mobile"],
 		gitUrl: "/",
-		previewUrl: "/",
+		previewUrl:
+			"https://play.google.com/store/apps/details?id=com.photo.background.remover.eraser&hl=en_US&gl=US",
 	},
 	{
 		id: 3,
-		title: "BSM",
+		title: "Quran for Life",
 		description:
-			"An application that is designed to be the ultimate day to day booking tool for travel professionals. I have hands-on experience in designing and developing it’s user interface.",
+			"The Quran App provides a comprehensive experience of the Holy Quran, accessible offline and online, delivering high-quality recitations, multiple translations, tafsir, automatic prayer times, a Qibla finder, a Tasbeeh counter, and customizable font sizes and themes—all in one user-friendly interface. Advanced search options allow easy verse lookup, enhancing the spiritual connection.",
 		image: Three.src,
-		tag: ["All", "Web"],
+		tag: ["All", "Mobile"],
 		gitUrl: "/",
-		previewUrl: "/",
+		previewUrl:
+			"https://play.google.com/store/apps/details?id=com.Holy.Quranmajeed.Qiblafinder.Islamic.prayer.times",
 	},
 	{
 		id: 4,
-		title: "React Firebase Template",
+		title: "Enhancer",
 		description:
-			"In this project, I implemented authentication using Firebase to enable seamless login through Facebook, Google, and Instagram. The integration provides a streamlined and secure way for users to access the application using their preferred social media accounts. This enhances user convenience and improves the overall user experience by simplifying the login process.",
-		image: "/images/projects/4.png",
-		tag: ["All", "Web"],
+			"Photo Enhancer is a powerful tool for improving image quality, providing users with enhanced clarity and vibrant details. Leveraging Firebase integration, the app includes analytics, crash reporting via Crashlytics, and Remote Config for optimized performance and real-time updates. It’s designed to elevate your photos with ease and precision.",
+		image: Four.src,
+		tag: ["All", "Mob"],
 		gitUrl: "/",
 		previewUrl: "/",
 	},
 	{
 		id: 5,
-		title: "Ejbni",
+		title: "AR based Footwear Purchase Application (Final Year Project)",
 		description:
-			"Ejbni is a full stack web and mobile application built in node.js and Next Js. This application is about food reviews in different restaurants. I have hands-on experience in designing and developing it’s user interface and integration in Next Js using Tailwind CSS and RTK Queries while using Redux Toolkit for state management.",
-		image: "/images/projects/5.png",
-		tag: ["All", "Web"],
+			"This mobile application uses Augmented Reality (AR) to enhance the shopping experience by allowing users to view shoes and place them on their feet through their mobile camera. Machine learning algorithms predict foot size, helping to reduce return rates and improve overall fit accuracy.",
+		image: Five.src,
+		tag: ["All", "Mob"],
 		gitUrl: "/",
 		previewUrl: "/",
 	},
